@@ -1,0 +1,22 @@
+/* Mixins */
+
+.center(){
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.style(@backcolor; @padding; @color) {
+  background-color: @backcolor;
+  padding: @padding;
+  color: @color
+}
+
+.btn(@color; @txtcolor; @width; @padding;) {
+	  background-color: @color;
+	  color: @txtcolor;
+	  width: @width;
+	  padding: @padding;
+	  border: 1px solid #000;
+	  text-align: center;
+}
